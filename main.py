@@ -8,6 +8,7 @@ def main(page: ft.Page):
     USUARIO = "admin"
     CONTRASENA = "1234"
 
+
     usuario = ft.TextField(label="Usuario")
     contrasena = ft.TextField(label="Contraseña", password=True, can_reveal_password=True)
     mensaje = ft.Text(color="red")
